@@ -1,0 +1,25 @@
+name: simulation
+root: ./
+startup_window: teleop
+pre_window: 
+windows:
+  - gazebo:
+      layout: tiled
+      panes:
+        - ros2 launch ugv_simulation world_launch.py
+  - spawn:
+      layout: tiled
+      panes:
+        - ros2 launch palletron_gazebo spawn_robot.launch.py x_pose:=2.0 y_pose:=2.0
+  - core:
+      layout: tiled
+      panes:
+        - ros2 launch palletron_bringup core.launch.py
+  - teleop:
+      layout: tiled
+      panes:
+        - ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args-r /cmd_vel:=/palletron1/cmd_vel
+  - rviz:
+      layout: tiled
+      panes:
+        - ros2 launch palletron_visualization rviz.launch.py config_file:=navigation_view.rviz

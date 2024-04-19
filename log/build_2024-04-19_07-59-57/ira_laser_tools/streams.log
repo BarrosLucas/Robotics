@@ -1,0 +1,34 @@
+[0.082s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools -- -j4 -l4
+[0.682s] [ 25%] [32mBuilding CXX object CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o[0m
+[0.708s] [ 50%] [32mBuilding CXX object CMakeFiles/laserscan_virtualizer.dir/src/laserscan_virtualizer.cpp.o[0m
+[45.574s] [100%] [32m[1mLinking CXX executable laserscan_virtualizer[0m
+[45.575s] [100%] [32m[1mLinking CXX executable laserscan_multi_merger[0m
+[54.333s] [100%] Built target laserscan_virtualizer
+[54.348s] [100%] Built target laserscan_multi_merger
+[54.362s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools -- -j4 -l4
+[54.423s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools
+[54.460s] -- Install configuration: ""
+[54.485s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger
+[54.495s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger" to ""
+[54.576s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/ira_laser_tools/laserscan_virtualizer
+[54.589s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/ira_laser_tools/laserscan_virtualizer" to ""
+[54.589s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/launch
+[54.589s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger.launch
+[54.590s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer.launch
+[54.590s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ament_index/resource_index/package_run_dependencies/ira_laser_tools
+[54.590s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ament_index/resource_index/parent_prefix_path/ira_laser_tools
+[54.591s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.sh
+[54.591s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.dsv
+[54.591s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/environment/path.sh
+[54.591s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/environment/path.dsv
+[54.592s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/local_setup.bash
+[54.592s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/local_setup.sh
+[54.592s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/local_setup.zsh
+[54.592s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/local_setup.dsv
+[54.592s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.dsv
+[54.609s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ament_index/resource_index/packages/ira_laser_tools
+[54.610s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.610s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig.cmake
+[54.610s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig-version.cmake
+[54.610s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.xml
+[54.615s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools

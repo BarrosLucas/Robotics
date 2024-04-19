@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/my_code
+-- Install configuration: ""
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map.yaml
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map.pgm
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map2.pgm
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/package_run_dependencies/my_code
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/parent_prefix_path/my_code
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/ament_prefix_path.sh
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/path.sh
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/path.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.bash
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.sh
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.zsh
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.dsv
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/package.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/packages/my_code
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/cmake/my_codeConfig.cmake
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/cmake/my_codeConfig-version.cmake
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/package.xml

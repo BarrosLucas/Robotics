@@ -1,0 +1,146 @@
+[0.121s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces -- -j4 -l4
+[0.811s] [  3%] Built target action_tutorials_interfaces__cpp
+[0.869s] [ 12%] Built target action_tutorials_interfaces__rosidl_generator_c
+[0.893s] [ 22%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[0.915s] [ 32%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.931s] [ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[0.997s] [ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[1.017s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[1.021s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[1.066s] [ 70%] Built target action_tutorials_interfaces
+[1.091s] [ 70%] Built target ament_cmake_python_copy_action_tutorials_interfaces
+[1.125s] [ 74%] Built target action_tutorials_interfaces__py
+[1.266s] [ 80%] Built target action_tutorials_interfaces__rosidl_generator_py
+[1.550s] [ 87%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[1.574s] [ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.586s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.818s] running egg_info
+[1.820s] writing action_tutorials_interfaces.egg-info/PKG-INFO
+[1.820s] writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt
+[1.820s] writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt
+[1.889s] reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[1.896s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[1.948s] [100%] Built target ament_cmake_python_build_action_tutorials_interfaces_egg
+[1.972s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces -- -j4 -l4
+[2.089s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces
+[2.110s] -- Install configuration: ""
+[2.111s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.h
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.h
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.h
+[2.112s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.c
+[2.113s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.h
+[2.113s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[2.113s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.113s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh
+[2.113s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv
+[2.191s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so
+[2.191s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.191s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.192s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.192s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[2.192s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[2.192s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.246s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.248s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.248s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.248s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.249s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[2.249s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.c
+[2.249s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[2.249s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.292s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp
+[2.295s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/dds_fastrtps
+[2.296s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[2.297s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.399s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.400s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[2.401s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[2.401s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[2.401s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp
+[2.401s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[2.495s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.496s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so
+[2.496s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh
+[2.496s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv
+[2.497s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info
+[2.497s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.497s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.497s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.498s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.498s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces
+[2.498s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action
+[2.498s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py
+[2.498s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci_s.c
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.499s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.500s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c
+[2.500s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.500s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.652s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces'...
+[2.652s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action'...
+[2.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.689s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.722s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.749s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so
+[2.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl
+[2.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action
+[2.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[2.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[2.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[2.754s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[2.761s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[2.778s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport.cmake
+[2.778s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.797s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.798s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.821s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cppExport.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.823s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.824s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.824s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[2.824s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[2.824s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[2.829s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces

@@ -1,0 +1,4 @@
+Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation -- -j4 -l4
+Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation -- -j4 -l4
+Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation
+Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation

@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/palletron_visualization_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization/CMakeFiles/install/strip.dir

@@ -1,0 +1,47 @@
+[0.083s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/launch_tutorial -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial
+[0.460s] -- The C compiler identification is GNU 11.4.0
+[0.833s] -- The CXX compiler identification is GNU 11.4.0
+[1.025s] -- Detecting C compiler ABI info
+[1.509s] -- Detecting C compiler ABI info - done
+[1.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.529s] -- Detecting C compile features
+[1.558s] -- Detecting C compile features - done
+[1.573s] -- Detecting CXX compiler ABI info
+[2.158s] -- Detecting CXX compiler ABI info - done
+[2.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.189s] -- Detecting CXX compile features
+[2.189s] -- Detecting CXX compile features - done
+[2.446s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.095s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.435s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.815s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.817s] -- Added test 'lint_cmake' to check CMake code style
+[4.823s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.832s] -- Added test 'xmllint' to check XML markup files
+[4.836s] -- Configuring done
+[4.841s] -- Generating done
+[4.843s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial
+[4.861s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/launch_tutorial -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial
+[4.862s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial -- -j4 -l4
+[4.972s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial -- -j4 -l4
+[5.038s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial
+[5.055s] -- Install configuration: ""
+[5.055s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial//launch
+[5.055s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial//launch/example_substitutions.launch.py
+[5.056s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial//launch/example_main.launch.py
+[5.056s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/ament_index/resource_index/package_run_dependencies/launch_tutorial
+[5.057s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/ament_index/resource_index/parent_prefix_path/launch_tutorial
+[5.057s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.sh
+[5.057s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.dsv
+[5.058s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/environment/path.sh
+[5.058s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/environment/path.dsv
+[5.058s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/local_setup.bash
+[5.062s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/local_setup.sh
+[5.062s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/local_setup.zsh
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/local_setup.dsv
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/package.dsv
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/ament_index/resource_index/packages/launch_tutorial
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig.cmake
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig-version.cmake
+[5.063s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/launch_tutorial/share/launch_tutorial/package.xml
+[5.079s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial

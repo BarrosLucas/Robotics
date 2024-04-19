@@ -1,0 +1,30 @@
+[0.117s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup -- -j4 -l4
+[0.305s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup -- -j4 -l4
+[0.381s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup
+[0.413s] -- Install configuration: ""
+[0.414s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch
+[0.415s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/ira_laserscan_multi_merger.launch.py
+[0.415s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/core.launch.py
+[0.415s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/localization.launch.py
+[0.415s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/slam.launch.py
+[0.415s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/navigation.launch.py
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/params
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/params/default.yaml
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/behavior_trees
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/behavior_trees/my_nav_to_pose_bt.xml
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/package_run_dependencies/palletron_bringup
+[0.416s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/parent_prefix_path/palletron_bringup
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/ament_prefix_path.sh
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/ament_prefix_path.dsv
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/path.sh
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/path.dsv
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.bash
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.sh
+[0.417s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.zsh
+[0.418s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.dsv
+[0.418s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.dsv
+[0.418s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/packages/palletron_bringup
+[0.418s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/cmake/palletron_bringupConfig.cmake
+[0.418s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/cmake/palletron_bringupConfig-version.cmake
+[0.418s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.xml
+[0.433s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup

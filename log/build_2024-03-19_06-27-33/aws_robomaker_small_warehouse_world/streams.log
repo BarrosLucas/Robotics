@@ -1,0 +1,303 @@
+[0.136s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world
+[0.918s] -- The C compiler identification is GNU 11.4.0
+[1.176s] -- The CXX compiler identification is GNU 11.4.0
+[1.433s] -- Detecting C compiler ABI info
+[1.731s] -- Detecting C compiler ABI info - done
+[1.750s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.750s] -- Detecting C compile features
+[1.786s] -- Detecting C compile features - done
+[2.063s] -- Detecting CXX compiler ABI info
+[2.504s] -- Detecting CXX compiler ABI info - done
+[2.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.528s] -- Detecting CXX compile features
+[2.528s] -- Detecting CXX compile features - done
+[2.756s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.223s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.498s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[6.679s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.729s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.950s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.897s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.903s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.994s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.722s] -- Looking for pthread.h
+[10.029s] -- Looking for pthread.h - found
+[10.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.248s] -- Found Threads: TRUE  
+[11.068s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[11.071s] -- Checking for module 'bullet>=2.82'
+[11.132s] --   Found bullet, version 3.05
+[12.603s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[12.872s] -- Found assimp: /usr/include (found version "5.2.0") 
+[13.896s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[14.200s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[14.387s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[14.485s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.673s] -- Searching for dependencies of ignition-math6
+[14.688s] -- Looking for OGRE...
+[14.689s] -- OGRE_PREFIX_WATCH changed.
+[14.702s] -- Checking for module 'OGRE'
+[14.727s] --   Found OGRE, version 1.9.0
+[14.801s] -- Found Ogre Ghadamon (1.9.0)
+[14.829s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[14.846s] -- Looking for OGRE_Paging...
+[14.859s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[14.859s] -- Looking for OGRE_Terrain...
+[14.873s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[14.873s] -- Looking for OGRE_Property...
+[14.887s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[14.887s] -- Looking for OGRE_RTShaderSystem...
+[14.898s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[14.898s] -- Looking for OGRE_Volume...
+[14.906s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[14.906s] -- Looking for OGRE_Overlay...
+[14.913s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[15.361s] -- Looking for ignition-math6 -- found version 6.15.1
+[15.420s] -- Looking for ignition-transport8 -- found version 8.2.1
+[15.421s] -- Searching for dependencies of ignition-transport8
+[15.452s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[15.470s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[15.480s] -- Checking for module 'libzmq >= 4'
+[15.560s] --   Found libzmq , version 4.3.4
+[15.648s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[15.665s] -- Checking for module 'uuid'
+[15.719s] --   Found uuid, version 2.37.2
+[15.786s] -- Found UUID: TRUE  
+[15.803s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[15.803s] -- Searching for dependencies of ignition-msgs5
+[15.832s] -- Looking for ignition-math6 -- found version 6.15.1
+[15.839s] -- Checking for module 'tinyxml2'
+[15.872s] --   Found tinyxml2, version 9.0.0
+[15.969s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[15.971s] -- Looking for ignition-common3 -- found version 3.14.0
+[15.973s] -- Searching for dependencies of ignition-common3
+[15.984s] -- Looking for dlfcn.h - found
+[15.985s] -- Looking for libdl - found
+[15.988s] -- Found DL: TRUE  
+[16.025s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[16.109s] -- Searching for <ignition-common3> component [graphics]
+[16.246s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[16.248s] -- Searching for dependencies of ignition-common3-graphics
+[16.248s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.501s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[16.502s] -- Searching for dependencies of ignition-fuel_tools4
+[16.905s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[17.144s] -- Checking for module 'jsoncpp'
+[17.274s] --   Found jsoncpp, version 1.9.5
+[17.382s] -- Found JSONCPP: TRUE  
+[17.403s] -- Checking for module 'libzip'
+[17.466s] --   Found libzip, version 1.7.3
+[17.539s] -- Found ZIP: TRUE  
+[17.540s] -- Looking for ignition-common3 -- found version 3.14.0
+[17.541s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.542s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[17.677s] -- Gazebo version: 11.10
+[17.678s] -- Checking for module 'tbb'
+[17.735s] --   Found tbb, version 2021.5.0
+[18.041s] -- Configuring done
+[18.051s] -- Generating done
+[18.058s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world
+[18.078s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world
+[18.086s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world -- -j4 -l4
+[18.148s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world -- -j4 -l4
+[18.185s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world
+[18.193s] -- Install configuration: ""
+[18.193s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch
+[18.193s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse.launch.py
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/no_roof_small_warehouse.launch.py
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[18.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[18.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[18.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials
+[18.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[18.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[18.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[18.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[18.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[18.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[18.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[18.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01
+[18.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+[18.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes
+[18.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[18.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[18.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[18.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials
+[18.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[18.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[18.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[18.202s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01
+[18.202s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.config
+[18.203s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes
+[18.203s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[18.203s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01
+[18.204s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[18.205s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[18.206s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[18.206s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[18.207s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[18.210s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[18.210s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[18.210s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01
+[18.211s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[18.211s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[18.211s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[18.212s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[18.212s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[18.212s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials
+[18.212s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[18.212s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes
+[18.214s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[18.215s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[18.215s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[18.215s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials
+[18.215s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[18.216s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[18.216s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[18.216s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[18.217s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[18.217s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01
+[18.217s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[18.217s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[18.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[18.219s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[18.219s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01
+[18.219s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[18.219s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[18.220s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[18.220s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[18.220s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[18.220s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials
+[18.220s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[18.221s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[18.221s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01
+[18.221s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+[18.221s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes
+[18.222s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[18.222s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[18.222s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[18.222s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials
+[18.223s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[18.223s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[18.223s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01
+[18.223s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[18.224s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes
+[18.224s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[18.224s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[18.224s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[18.224s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials
+[18.225s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[18.225s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[18.225s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[18.226s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[18.226s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[18.226s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[18.227s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[18.227s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01
+[18.227s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[18.227s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[18.228s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[18.228s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[18.228s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[18.228s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials
+[18.228s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[18.229s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[18.229s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[18.229s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01
+[18.229s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+[18.230s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes
+[18.230s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[18.230s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[18.230s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[18.231s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials
+[18.231s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[18.231s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[18.231s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01
+[18.231s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[18.232s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes
+[18.232s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[18.232s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[18.233s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[18.233s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials
+[18.233s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[18.233s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[18.233s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[18.234s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[18.234s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/.DS_Store
+[18.234s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01
+[18.234s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials
+[18.235s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[18.236s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[18.236s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[18.236s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[18.236s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse.world
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps
+[18.237s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002
+[18.238s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.yaml
+[18.238s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.pgm
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/.DS_Store
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.pgm
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.png
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.yaml
+[18.241s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.pgm
+[18.242s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz
+[18.242s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz/basic_data.rviz
+[18.242s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+[18.243s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_warehouse_world
+[18.243s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_warehouse_world
+[18.243s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
+[18.243s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.dsv
+[18.244s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.sh
+[18.244s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.dsv
+[18.244s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.bash
+[18.244s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.sh
+[18.245s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.zsh
+[18.245s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.dsv
+[18.245s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv
+[18.245s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/packages/aws_robomaker_small_warehouse_world
+[18.246s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.246s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+[18.246s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+[18.246s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.xml
+[18.250s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world

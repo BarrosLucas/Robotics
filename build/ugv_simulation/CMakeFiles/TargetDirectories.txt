@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/ugv_simulation_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation/CMakeFiles/install/strip.dir

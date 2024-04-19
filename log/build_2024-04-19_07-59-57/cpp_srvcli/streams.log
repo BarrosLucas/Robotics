@@ -1,0 +1,30 @@
+[0.123s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli -- -j4 -l4
+[0.575s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.604s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[10.644s] [ 75%] [32m[1mLinking CXX executable server[0m
+[10.946s] [100%] [32m[1mLinking CXX executable client[0m
+[13.006s] [100%] Built target client
+[13.056s] [100%] Built target server
+[13.132s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli -- -j4 -l4
+[13.199s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli
+[13.243s] -- Install configuration: ""
+[13.445s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/lib/cpp_srvcli/server
+[13.453s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[13.510s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/lib/cpp_srvcli/client
+[13.511s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[13.511s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[13.511s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[13.511s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[13.511s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[13.512s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[13.513s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[13.513s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[13.513s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[13.513s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[13.513s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[13.514s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[13.568s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[13.569s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[13.570s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[13.570s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[13.584s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli

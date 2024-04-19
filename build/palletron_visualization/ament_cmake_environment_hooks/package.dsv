@@ -1,0 +1,4 @@
+source;share/palletron_visualization/local_setup.bash
+source;share/palletron_visualization/local_setup.dsv
+source;share/palletron_visualization/local_setup.sh
+source;share/palletron_visualization/local_setup.zsh

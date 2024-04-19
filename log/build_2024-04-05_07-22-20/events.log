@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000583] (-) JobUnselected: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[0.000807] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000854] (-) JobUnselected: {'identifier': 'ira_laser_tools'}
+[0.001338] (-) JobUnselected: {'identifier': 'my_code'}
+[0.001378] (-) JobUnselected: {'identifier': 'palletron_bringup'}
+[0.001410] (-) JobUnselected: {'identifier': 'palletron_gazebo'}
+[0.001441] (-) JobUnselected: {'identifier': 'palletron_visualization'}
+[0.001471] (-) JobUnselected: {'identifier': 'ugv_navigation'}
+[0.001501] (-) JobUnselected: {'identifier': 'ugv_robots_descriptions'}
+[0.001558] (-) JobUnselected: {'identifier': 'ugv_simulation'}
+[0.001618] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001817] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.069695] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.070056] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/lucas/Documents/Pratica4/workspace_2/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli'], 'cwd': '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucas'), ('OLDPWD', '/home/lucas/Documents/Pratica4/workspace_2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lucas/Documents/Pratica4/workspace_2/src/my_code/start/'), ('SESSION_MANAGER', 'local/lucas-Inspiron-15-3567:@/tmp/.ICE-unix/1614,unix/lucas-Inspiron-15-3567:/tmp/.ICE-unix/1614'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/208301f6_f297_48c5_afee_407b521b9d3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble')]), 'shell': False}
+[0.102857] (-) TimerEvent: {}
+[0.203459] (-) TimerEvent: {}
+[0.304684] (-) TimerEvent: {}
+[0.405013] (-) TimerEvent: {}
+[0.505367] (-) TimerEvent: {}
+[0.605708] (-) TimerEvent: {}
+[0.706010] (-) TimerEvent: {}
+[0.806304] (-) TimerEvent: {}
+[0.906644] (-) TimerEvent: {}
+[1.006997] (-) TimerEvent: {}
+[1.107344] (-) TimerEvent: {}
+[1.207632] (-) TimerEvent: {}
+[1.307952] (-) TimerEvent: {}
+[1.408244] (-) TimerEvent: {}
+[1.508564] (-) TimerEvent: {}
+[1.608912] (-) TimerEvent: {}
+[1.709302] (-) TimerEvent: {}
+[1.751558] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.809479] (-) TimerEvent: {}
+[1.910091] (-) TimerEvent: {}
+[2.010951] (-) TimerEvent: {}
+[2.111297] (-) TimerEvent: {}
+[2.211604] (-) TimerEvent: {}
+[2.311937] (-) TimerEvent: {}
+[2.412344] (-) TimerEvent: {}
+[2.512651] (-) TimerEvent: {}
+[2.612976] (-) TimerEvent: {}
+[2.713328] (-) TimerEvent: {}
+[2.813665] (-) TimerEvent: {}
+[2.914009] (-) TimerEvent: {}
+[3.014361] (-) TimerEvent: {}
+[3.114725] (-) TimerEvent: {}
+[3.207529] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.214819] (-) TimerEvent: {}
+[3.301119] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.314927] (-) TimerEvent: {}
+[3.415234] (-) TimerEvent: {}
+[3.515606] (-) TimerEvent: {}
+[3.616093] (-) TimerEvent: {}
+[3.716925] (-) TimerEvent: {}
+[3.817782] (-) TimerEvent: {}
+[3.918616] (-) TimerEvent: {}
+[4.019563] (-) TimerEvent: {}
+[4.120516] (-) TimerEvent: {}
+[4.221438] (-) TimerEvent: {}
+[4.322369] (-) TimerEvent: {}
+[4.423230] (-) TimerEvent: {}
+[4.524495] (-) TimerEvent: {}
+[4.578815] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.587429] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.614545] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.624703] (-) TimerEvent: {}
+[4.683657] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.724983] (-) TimerEvent: {}
+[4.825808] (-) TimerEvent: {}
+[4.926646] (-) TimerEvent: {}
+[5.027648] (-) TimerEvent: {}
+[5.047264] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.127806] (-) TimerEvent: {}
+[5.228332] (-) TimerEvent: {}
+[5.329187] (-) TimerEvent: {}
+[5.472167] (-) TimerEvent: {}
+[5.572924] (-) TimerEvent: {}
+[5.653977] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.664738] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.665117] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.666133] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.673017] (-) TimerEvent: {}
+[5.743561] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.773131] (-) TimerEvent: {}
+[5.873442] (-) TimerEvent: {}
+[5.974021] (-) TimerEvent: {}
+[6.075355] (-) TimerEvent: {}
+[6.175991] (-) TimerEvent: {}
+[6.276504] (-) TimerEvent: {}
+[6.377240] (-) TimerEvent: {}
+[6.384868] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.477573] (-) TimerEvent: {}
+[6.578496] (-) TimerEvent: {}
+[6.679671] (-) TimerEvent: {}
+[6.780547] (-) TimerEvent: {}
+[6.881351] (-) TimerEvent: {}
+[6.982226] (-) TimerEvent: {}
+[7.083340] (-) TimerEvent: {}
+[7.184172] (-) TimerEvent: {}
+[7.285204] (-) TimerEvent: {}
+[7.386226] (-) TimerEvent: {}
+[7.487249] (-) TimerEvent: {}
+[7.588163] (-) TimerEvent: {}
+[7.688977] (-) TimerEvent: {}
+[7.794554] (-) TimerEvent: {}
+[7.895389] (-) TimerEvent: {}
+[7.996104] (-) TimerEvent: {}
+[8.096965] (-) TimerEvent: {}
+[8.197721] (-) TimerEvent: {}
+[8.298623] (-) TimerEvent: {}
+[8.399524] (-) TimerEvent: {}
+[8.500365] (-) TimerEvent: {}
+[8.601132] (-) TimerEvent: {}
+[8.701897] (-) TimerEvent: {}
+[8.803022] (-) TimerEvent: {}
+[8.903982] (-) TimerEvent: {}
+[8.969896] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.004206] (-) TimerEvent: {}
+[9.105033] (-) TimerEvent: {}
+[9.205867] (-) TimerEvent: {}
+[9.306881] (-) TimerEvent: {}
+[9.407772] (-) TimerEvent: {}
+[9.508692] (-) TimerEvent: {}
+[9.609458] (-) TimerEvent: {}
+[9.710264] (-) TimerEvent: {}
+[9.811186] (-) TimerEvent: {}
+[9.912098] (-) TimerEvent: {}
+[10.012951] (-) TimerEvent: {}
+[10.113798] (-) TimerEvent: {}
+[10.214496] (-) TimerEvent: {}
+[10.315236] (-) TimerEvent: {}
+[10.416006] (-) TimerEvent: {}
+[10.516756] (-) TimerEvent: {}
+[10.617492] (-) TimerEvent: {}
+[10.718135] (-) TimerEvent: {}
+[10.819049] (-) TimerEvent: {}
+[10.919888] (-) TimerEvent: {}
+[11.020580] (-) TimerEvent: {}
+[11.121002] (-) TimerEvent: {}
+[11.221832] (-) TimerEvent: {}
+[11.322686] (-) TimerEvent: {}
+[11.423736] (-) TimerEvent: {}
+[11.524556] (-) TimerEvent: {}
+[11.625556] (-) TimerEvent: {}
+[11.726571] (-) TimerEvent: {}
+[11.827597] (-) TimerEvent: {}
+[11.928420] (-) TimerEvent: {}
+[12.029435] (-) TimerEvent: {}
+[12.130440] (-) TimerEvent: {}
+[12.231513] (-) TimerEvent: {}
+[12.332457] (-) TimerEvent: {}
+[12.433408] (-) TimerEvent: {}
+[12.534400] (-) TimerEvent: {}
+[12.635309] (-) TimerEvent: {}
+[12.736290] (-) TimerEvent: {}
+[12.837205] (-) TimerEvent: {}
+[12.952292] (-) TimerEvent: {}
+[12.955011] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.052590] (-) TimerEvent: {}
+[13.153569] (-) TimerEvent: {}
+[13.155928] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.204726] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[13.253692] (-) TimerEvent: {}
+[13.354268] (-) TimerEvent: {}
+[13.454670] (-) TimerEvent: {}
+[13.520300] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.554796] (-) TimerEvent: {}
+[13.642711] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.654891] (-) TimerEvent: {}
+[13.755314] (-) TimerEvent: {}
+[13.855647] (-) TimerEvent: {}
+[13.955978] (-) TimerEvent: {}
+[14.018618] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[14.056183] (-) TimerEvent: {}
+[14.074591] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.156293] (-) TimerEvent: {}
+[14.257179] (-) TimerEvent: {}
+[14.358481] (-) TimerEvent: {}
+[14.458812] (-) TimerEvent: {}
+[14.559274] (-) TimerEvent: {}
+[14.660166] (-) TimerEvent: {}
+[14.761106] (-) TimerEvent: {}
+[14.861738] (-) TimerEvent: {}
+[14.962433] (-) TimerEvent: {}
+[15.063320] (-) TimerEvent: {}
+[15.163789] (-) TimerEvent: {}
+[15.264644] (-) TimerEvent: {}
+[15.365544] (-) TimerEvent: {}
+[15.466380] (-) TimerEvent: {}
+[15.567279] (-) TimerEvent: {}
+[15.668232] (-) TimerEvent: {}
+[15.769128] (-) TimerEvent: {}
+[15.869846] (-) TimerEvent: {}
+[15.970371] (-) TimerEvent: {}
+[16.071471] (-) TimerEvent: {}
+[16.172384] (-) TimerEvent: {}
+[16.273106] (-) TimerEvent: {}
+[16.307717] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.373368] (-) TimerEvent: {}
+[16.474227] (-) TimerEvent: {}
+[16.575023] (-) TimerEvent: {}
+[16.675657] (-) TimerEvent: {}
+[16.732579] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.775802] (-) TimerEvent: {}
+[16.865919] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.875949] (-) TimerEvent: {}
+[16.976467] (-) TimerEvent: {}
+[17.077349] (-) TimerEvent: {}
+[17.178282] (-) TimerEvent: {}
+[17.279092] (-) TimerEvent: {}
+[17.379944] (-) TimerEvent: {}
+[17.480875] (-) TimerEvent: {}
+[17.581735] (-) TimerEvent: {}
+[17.682536] (-) TimerEvent: {}
+[17.783079] (-) TimerEvent: {}
+[17.883956] (-) TimerEvent: {}
+[17.984736] (-) TimerEvent: {}
+[18.085666] (-) TimerEvent: {}
+[18.133429] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.185764] (-) TimerEvent: {}
+[18.286230] (-) TimerEvent: {}
+[18.386994] (-) TimerEvent: {}
+[18.487924] (-) TimerEvent: {}
+[18.588814] (-) TimerEvent: {}
+[18.689985] (-) TimerEvent: {}
+[18.791093] (-) TimerEvent: {}
+[18.892002] (-) TimerEvent: {}
+[18.992999] (-) TimerEvent: {}
+[19.093807] (-) TimerEvent: {}
+[19.194613] (-) TimerEvent: {}
+[19.295626] (-) TimerEvent: {}
+[19.396485] (-) TimerEvent: {}
+[19.497397] (-) TimerEvent: {}
+[19.598143] (-) TimerEvent: {}
+[19.698993] (-) TimerEvent: {}
+[19.799979] (-) TimerEvent: {}
+[19.901508] (-) TimerEvent: {}
+[20.002934] (-) TimerEvent: {}
+[20.103459] (-) TimerEvent: {}
+[20.204372] (-) TimerEvent: {}
+[20.305207] (-) TimerEvent: {}
+[20.405866] (-) TimerEvent: {}
+[20.506675] (-) TimerEvent: {}
+[20.607367] (-) TimerEvent: {}
+[20.708224] (-) TimerEvent: {}
+[20.808979] (-) TimerEvent: {}
+[20.909748] (-) TimerEvent: {}
+[21.010602] (-) TimerEvent: {}
+[21.111619] (-) TimerEvent: {}
+[21.212590] (-) TimerEvent: {}
+[21.313918] (-) TimerEvent: {}
+[21.333406] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[21.335126] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.414702] (-) TimerEvent: {}
+[21.517108] (-) TimerEvent: {}
+[21.618336] (-) TimerEvent: {}
+[21.719237] (-) TimerEvent: {}
+[21.735670] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.737674] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.819445] (-) TimerEvent: {}
+[21.920172] (-) TimerEvent: {}
+[22.020856] (-) TimerEvent: {}
+[22.121635] (-) TimerEvent: {}
+[22.222519] (-) TimerEvent: {}
+[22.323545] (-) TimerEvent: {}
+[22.424602] (-) TimerEvent: {}
+[22.526223] (-) TimerEvent: {}
+[22.626960] (-) TimerEvent: {}
+[22.727832] (-) TimerEvent: {}
+[22.828275] (-) TimerEvent: {}
+[22.928647] (-) TimerEvent: {}
+[23.029226] (-) TimerEvent: {}
+[23.130543] (-) TimerEvent: {}
+[23.231440] (-) TimerEvent: {}
+[23.332217] (-) TimerEvent: {}
+[23.433171] (-) TimerEvent: {}
+[23.533925] (-) TimerEvent: {}
+[23.634831] (-) TimerEvent: {}
+[23.735718] (-) TimerEvent: {}
+[23.836656] (-) TimerEvent: {}
+[23.937582] (-) TimerEvent: {}
+[24.038428] (-) TimerEvent: {}
+[24.139162] (-) TimerEvent: {}
+[24.239959] (-) TimerEvent: {}
+[24.340509] (-) TimerEvent: {}
+[24.441054] (-) TimerEvent: {}
+[24.541703] (-) TimerEvent: {}
+[24.642149] (-) TimerEvent: {}
+[24.743082] (-) TimerEvent: {}
+[24.843808] (-) TimerEvent: {}
+[24.944615] (-) TimerEvent: {}
+[25.045913] (-) TimerEvent: {}
+[25.146560] (-) TimerEvent: {}
+[25.247296] (-) TimerEvent: {}
+[25.347697] (-) TimerEvent: {}
+[25.448068] (-) TimerEvent: {}
+[25.548372] (-) TimerEvent: {}
+[25.648731] (-) TimerEvent: {}
+[25.749168] (-) TimerEvent: {}
+[25.777690] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[25.849256] (-) TimerEvent: {}
+[25.949663] (-) TimerEvent: {}
+[26.050225] (-) TimerEvent: {}
+[26.151531] (-) TimerEvent: {}
+[26.197213] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[26.251644] (-) TimerEvent: {}
+[26.352100] (-) TimerEvent: {}
+[26.452771] (-) TimerEvent: {}
+[26.553079] (-) TimerEvent: {}
+[26.653472] (-) TimerEvent: {}
+[26.753881] (-) TimerEvent: {}
+[26.854247] (-) TimerEvent: {}
+[26.954576] (-) TimerEvent: {}
+[27.054845] (-) TimerEvent: {}
+[27.155187] (-) TimerEvent: {}
+[27.241173] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[27.241490] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[27.241672] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[27.243527] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[27.246231] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[27.246474] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[27.247795] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[27.251391] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.255296] (-) TimerEvent: {}
+[27.262146] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[27.262437] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli\n'}
+[27.279369] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[27.282679] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[27.282794] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucas'), ('OLDPWD', '/home/lucas/Documents/Pratica4/workspace_2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lucas/Documents/Pratica4/workspace_2/src/my_code/start/'), ('SESSION_MANAGER', 'local/lucas-Inspiron-15-3567:@/tmp/.ICE-unix/1614,unix/lucas-Inspiron-15-3567:/tmp/.ICE-unix/1614'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/208301f6_f297_48c5_afee_407b521b9d3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble')]), 'shell': False}
+[27.351455] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[27.355392] (-) TimerEvent: {}
+[27.383105] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[27.397443] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli'], 'cwd': '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucas'), ('OLDPWD', '/home/lucas/Documents/Pratica4/workspace_2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lucas/Documents/Pratica4/workspace_2/src/my_code/start/'), ('SESSION_MANAGER', 'local/lucas-Inspiron-15-3567:@/tmp/.ICE-unix/1614,unix/lucas-Inspiron-15-3567:/tmp/.ICE-unix/1614'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/208301f6_f297_48c5_afee_407b521b9d3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_srvcli'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble')]), 'shell': False}
+[27.411056] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.411758] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[27.412452] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[27.413149] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[27.413843] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[27.414620] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[27.415230] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[27.415806] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[27.416382] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[27.417330] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[27.417767] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[27.417953] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[27.418094] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[27.418232] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[27.418369] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[27.418612] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[27.418830] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[27.455680] (-) TimerEvent: {}
+[27.557007] (-) TimerEvent: {}
+[27.627585] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[27.629292] (-) EventReactorShutdown: {}

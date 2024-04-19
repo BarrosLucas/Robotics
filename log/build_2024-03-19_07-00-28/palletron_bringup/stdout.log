@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/ira_laserscan_multi_merger.launch.py
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/core.launch.py
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/localization.launch.py
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/slam.launch.py
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/launch/navigation.launch.py
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/params
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/params/default.yaml
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/behavior_trees
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/behavior_trees/my_nav_to_pose_bt.xml
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/package_run_dependencies/palletron_bringup
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/parent_prefix_path/palletron_bringup
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/path.sh
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/environment/path.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.bash
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.sh
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.zsh
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/local_setup.dsv
+-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.dsv
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/ament_index/resource_index/packages/palletron_bringup
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/cmake/palletron_bringupConfig.cmake
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/cmake/palletron_bringupConfig-version.cmake
+-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.xml

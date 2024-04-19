@@ -1,0 +1,144 @@
+[0.062s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces -- -j4 -l4
+[0.358s] [  3%] Built target more_interfaces__cpp
+[0.410s] [  3%] Built target ament_cmake_python_copy_more_interfaces
+[0.444s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.510s] [ 21%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.538s] [ 30%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.553s] [ 39%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.606s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.658s] [ 57%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.660s] [ 66%] Built target more_interfaces__rosidl_typesupport_c
+[0.716s] [ 66%] Built target more_interfaces
+[0.806s] [ 69%] Built target more_interfaces__py
+[0.829s] [ 75%] Built target publish_address_book
+[0.960s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[1.054s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.106s] [ 93%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[1.126s] [100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.302s] running egg_info
+[1.305s] writing more_interfaces.egg-info/PKG-INFO
+[1.310s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.318s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.343s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.349s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.439s] [100%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.503s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces -- -j4 -l4
+[1.642s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces
+[1.659s] -- Install configuration: ""
+[1.659s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[1.659s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.659s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.661s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.662s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.662s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[1.662s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[1.662s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[1.662s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[1.663s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[1.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[1.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[1.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[1.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.666s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.667s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.667s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.667s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[1.667s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.667s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.668s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.668s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.668s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.668s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[1.669s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[1.669s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[1.669s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[1.669s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.669s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.670s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.670s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[1.670s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[1.670s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.671s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[1.672s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[1.672s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.672s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.672s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.672s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.673s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[1.673s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[1.673s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.673s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[1.673s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[1.674s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[1.674s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[1.674s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.674s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.674s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.675s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.675s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[1.675s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[1.675s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[1.676s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.677s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.677s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.677s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.738s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[1.738s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[1.748s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.748s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.749s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.749s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[1.750s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[1.750s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[1.750s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/more_interfaces/publish_address_book
+[1.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[1.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[1.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[1.751s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[1.752s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/path.sh
+[1.752s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[1.752s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.bash
+[1.752s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.sh
+[1.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[1.753s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[1.753s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/package.dsv
+[1.754s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[1.754s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[1.754s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.755s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.755s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.755s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.755s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.755s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.756s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.757s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.758s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[1.759s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[1.759s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/package.xml
+[1.777s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces

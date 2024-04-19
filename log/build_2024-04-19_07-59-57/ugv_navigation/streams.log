@@ -1,0 +1,26 @@
+[0.095s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation -- -j4 -l4
+[0.889s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation -- -j4 -l4
+[0.994s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation
+[1.073s] -- Install configuration: ""
+[1.073s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/launch
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/launch/launchs
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/config
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/config/configs
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/rviz
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/rviz/rviz
+[1.074s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ament_index/resource_index/package_run_dependencies/ugv_navigation
+[1.075s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ament_index/resource_index/parent_prefix_path/ugv_navigation
+[1.075s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/environment/ament_prefix_path.sh
+[1.075s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/environment/ament_prefix_path.dsv
+[1.075s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/environment/path.sh
+[1.075s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/environment/path.dsv
+[1.077s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/local_setup.bash
+[1.077s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/local_setup.sh
+[1.077s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/local_setup.zsh
+[1.077s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/local_setup.dsv
+[1.078s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.dsv
+[1.129s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ament_index/resource_index/packages/ugv_navigation
+[1.129s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/cmake/ugv_navigationConfig.cmake
+[1.129s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/cmake/ugv_navigationConfig-version.cmake
+[1.129s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.xml
+[1.130s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation

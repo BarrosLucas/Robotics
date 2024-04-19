@@ -1,0 +1,157 @@
+[0.035s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo
+[0.777s] -- The C compiler identification is GNU 11.4.0
+[1.026s] -- The CXX compiler identification is GNU 11.4.0
+[1.308s] -- Detecting C compiler ABI info
+[1.596s] -- Detecting C compiler ABI info - done
+[1.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.616s] -- Detecting C compile features
+[1.661s] -- Detecting C compile features - done
+[1.940s] -- Detecting CXX compiler ABI info
+[2.415s] -- Detecting CXX compiler ABI info - done
+[2.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.429s] -- Detecting CXX compile features
+[2.430s] -- Detecting CXX compile features - done
+[2.630s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.099s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.374s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[6.554s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.604s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.818s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.772s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.778s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.640s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.868s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.596s] -- Looking for pthread.h
+[9.893s] -- Looking for pthread.h - found
+[9.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.076s] -- Found Threads: TRUE  
+[10.944s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[10.947s] -- Checking for module 'bullet>=2.82'
+[11.007s] --   Found bullet, version 3.05
+[12.478s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[12.752s] -- Found assimp: /usr/include (found version "5.2.0") 
+[13.771s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[14.075s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[14.262s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[14.359s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.548s] -- Searching for dependencies of ignition-math6
+[14.563s] -- Looking for OGRE...
+[14.564s] -- OGRE_PREFIX_WATCH changed.
+[14.573s] -- Checking for module 'OGRE'
+[14.597s] --   Found OGRE, version 1.9.0
+[14.675s] -- Found Ogre Ghadamon (1.9.0)
+[14.704s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[14.716s] -- Looking for OGRE_Paging...
+[14.725s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[14.725s] -- Looking for OGRE_Terrain...
+[14.739s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[14.739s] -- Looking for OGRE_Property...
+[14.753s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[14.753s] -- Looking for OGRE_RTShaderSystem...
+[14.767s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[14.767s] -- Looking for OGRE_Volume...
+[14.779s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[14.779s] -- Looking for OGRE_Overlay...
+[14.787s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[15.231s] -- Looking for ignition-math6 -- found version 6.15.1
+[15.295s] -- Looking for ignition-transport8 -- found version 8.2.1
+[15.296s] -- Searching for dependencies of ignition-transport8
+[15.328s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[15.351s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[15.357s] -- Checking for module 'libzmq >= 4'
+[15.434s] --   Found libzmq , version 4.3.4
+[15.531s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[15.547s] -- Checking for module 'uuid'
+[15.596s] --   Found uuid, version 2.37.2
+[15.673s] -- Found UUID: TRUE  
+[15.688s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[15.688s] -- Searching for dependencies of ignition-msgs5
+[15.712s] -- Looking for ignition-math6 -- found version 6.15.1
+[15.720s] -- Checking for module 'tinyxml2'
+[15.748s] --   Found tinyxml2, version 9.0.0
+[15.838s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[15.846s] -- Looking for ignition-common3 -- found version 3.14.0
+[15.847s] -- Searching for dependencies of ignition-common3
+[15.858s] -- Looking for dlfcn.h - found
+[15.860s] -- Looking for libdl - found
+[15.863s] -- Found DL: TRUE  
+[15.900s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[15.984s] -- Searching for <ignition-common3> component [graphics]
+[16.123s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[16.123s] -- Searching for dependencies of ignition-common3-graphics
+[16.123s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.376s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[16.378s] -- Searching for dependencies of ignition-fuel_tools4
+[16.785s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[17.018s] -- Checking for module 'jsoncpp'
+[17.150s] --   Found jsoncpp, version 1.9.5
+[17.267s] -- Found JSONCPP: TRUE  
+[17.284s] -- Checking for module 'libzip'
+[17.332s] --   Found libzip, version 1.7.3
+[17.414s] -- Found ZIP: TRUE  
+[17.415s] -- Looking for ignition-common3 -- found version 3.14.0
+[17.416s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.416s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[17.553s] -- Gazebo version: 11.10
+[17.553s] -- Checking for module 'tbb'
+[17.611s] --   Found tbb, version 2021.5.0
+[17.708s] -- Found gazebo_plugins: 3.7.0 (/opt/ros/humble/share/gazebo_plugins/cmake)
+[18.878s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.032s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.035s] -- Added test 'lint_cmake' to check CMake code style
+[19.036s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.045s] -- Added test 'xmllint' to check XML markup files
+[19.047s] -- Configuring done
+[19.058s] -- Generating done
+[19.062s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo
+[19.088s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo
+[19.089s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[19.140s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[19.182s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo
+[19.192s] -- Install configuration: ""
+[19.193s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch
+[19.193s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch/spawn_robot.launch.py
+[19.193s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch/spawn_multi_robots.launch.py
+[19.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params
+[19.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn
+[19.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/three_robots.yaml
+[19.194s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/one_robot.yaml
+[19.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/two_robots.yaml
+[19.195s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/xacro
+[19.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/xacro/default_optionals.yaml
+[19.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf
+[19.196s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/chassis
+[19.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/chassis/chassis_without_mesh.urdf.xacro
+[19.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors
+[19.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors/hokuyo.urdf.xacro
+[19.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors/imu.urdf.xacro
+[19.197s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/inertias.urdf.xacro
+[19.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/palletron.xacro
+[19.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins
+[19.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins/differential_drive_plugin.gazebo.xacro
+[19.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins/p3d_plugin.gazebo.xacro
+[19.198s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/caster_wheel.urdf.xacro
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/drive_wheel.urdf.xacro
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/dummy_caster_wheel.urdf.xacro
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/common_properties.urdf.xacro
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/package_run_dependencies/palletron_gazebo
+[19.199s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/parent_prefix_path/palletron_gazebo
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/ament_prefix_path.sh
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/ament_prefix_path.dsv
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/path.sh
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/path.dsv
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.bash
+[19.200s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.sh
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.zsh
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.dsv
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.dsv
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/packages/palletron_gazebo
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/cmake/palletron_gazeboConfig.cmake
+[19.201s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/cmake/palletron_gazeboConfig-version.cmake
+[19.202s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.xml
+[19.205s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo

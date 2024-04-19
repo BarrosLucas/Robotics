@@ -1,0 +1,6 @@
+Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/my_code -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/my_code
+Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/my_code -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/my_code
+Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/my_code -- -j4 -l4
+Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/my_code -- -j4 -l4
+Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/my_code
+Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/my_code

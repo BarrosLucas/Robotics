@@ -1,0 +1,24 @@
+[0.407s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/my_code -- -j4 -l4
+[3.026s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/my_code -- -j4 -l4
+[3.089s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/my_code
+[3.125s] -- Install configuration: ""
+[3.126s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world
+[3.159s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map.yaml
+[3.160s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map.pgm
+[3.160s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/world/map2.pgm
+[3.161s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/package_run_dependencies/my_code
+[3.162s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/parent_prefix_path/my_code
+[3.162s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/ament_prefix_path.sh
+[3.163s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/path.sh
+[3.164s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/environment/path.dsv
+[3.164s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.bash
+[3.165s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.sh
+[3.165s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.zsh
+[3.165s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/local_setup.dsv
+[3.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/package.dsv
+[3.188s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/ament_index/resource_index/packages/my_code
+[3.188s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/cmake/my_codeConfig.cmake
+[3.189s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/cmake/my_codeConfig-version.cmake
+[3.189s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/my_code/share/my_code/package.xml
+[3.196s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/my_code' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/my_code

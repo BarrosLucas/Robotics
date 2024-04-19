@@ -1,0 +1,66 @@
+[0.102s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub
+[2.158s] -- The C compiler identification is GNU 11.4.0
+[5.191s] -- The CXX compiler identification is GNU 11.4.0
+[5.251s] -- Detecting C compiler ABI info
+[5.894s] -- Detecting C compiler ABI info - done
+[5.905s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.022s] -- Detecting C compile features
+[6.067s] -- Detecting C compile features - done
+[6.286s] -- Detecting CXX compiler ABI info
+[6.518s] -- Detecting CXX compiler ABI info - done
+[6.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.527s] -- Detecting CXX compile features
+[6.528s] -- Detecting CXX compile features - done
+[6.593s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.171s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.606s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[9.382s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.433s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.528s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.114s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.133s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.121s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.347s] -- Looking for pthread.h
+[12.164s] -- Looking for pthread.h - found
+[12.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.339s] -- Found Threads: TRUE  
+[13.229s] -- Configuring done
+[13.248s] -- Generating done
+[13.251s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub
+[13.263s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub
+[13.266s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub -- -j4 -l4
+[13.335s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[13.336s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[23.143s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[26.225s] [ 75%] Built target talker
+[28.293s] [100%] [32m[1mLinking CXX executable listener[0m
+[28.851s] [100%] Built target listener
+[28.950s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub -- -j4 -l4
+[29.018s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub
+[29.026s] -- Install configuration: ""
+[29.027s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/lib/cpp_pubsub/talker
+[29.029s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[29.029s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/lib/cpp_pubsub/talker
+[29.029s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/lib/cpp_pubsub/listener
+[29.034s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[29.034s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[29.034s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[29.035s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[29.036s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[29.036s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[29.036s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[29.037s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[29.037s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[29.037s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[29.037s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/src/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[29.040s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/src/build/cpp_pubsub

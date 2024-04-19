@@ -1,0 +1,29 @@
+[0.106s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/polygon_base -- -j4 -l4
+[0.777s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[14.317s] [100%] [32m[1mLinking CXX executable area_node[0m
+[15.674s] [100%] Built target area_node
+[15.691s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/polygon_base -- -j4 -l4
+[15.778s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/polygon_base
+[15.867s] -- Install configuration: ""
+[16.021s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/lib/polygon_base/area_node
+[16.030s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/lib/polygon_base/area_node" to ""
+[16.031s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/include
+[16.032s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/include/polygon_base
+[16.033s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[16.033s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[16.034s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[16.035s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[16.036s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[16.036s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/environment/path.sh
+[16.037s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/environment/path.dsv
+[16.037s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/local_setup.bash
+[16.038s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/local_setup.sh
+[16.038s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/local_setup.zsh
+[16.039s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/local_setup.dsv
+[16.040s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/package.dsv
+[16.067s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[16.069s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.070s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[16.070s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[16.071s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/polygon_base/share/polygon_base/package.xml
+[16.105s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/polygon_base

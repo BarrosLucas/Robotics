@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[0.000440] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000492] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000534] (-) JobUnselected: {'identifier': 'ira_laser_tools'}
+[0.000831] (-) JobUnselected: {'identifier': 'my_code'}
+[0.001035] (-) JobUnselected: {'identifier': 'palletron_bringup'}
+[0.001322] (-) JobUnselected: {'identifier': 'palletron_gazebo'}
+[0.001400] (-) JobUnselected: {'identifier': 'palletron_visualization'}
+[0.001471] (-) JobUnselected: {'identifier': 'ugv_navigation'}
+[0.001587] (-) JobUnselected: {'identifier': 'ugv_robots_descriptions'}
+[0.001705] (-) JobUnselected: {'identifier': 'ugv_simulation'}
+[0.001846] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001918] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.012300] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.099847] (-) TimerEvent: {}
+[0.200732] (-) TimerEvent: {}
+[0.261910] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.265464] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucas'), ('OLDPWD', '/home/lucas/Documents/Pratica4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lucas/Documents/Pratica4/workspace_2/src/my_code/start/'), ('SESSION_MANAGER', 'local/lucas-Inspiron-15-3567:@/tmp/.ICE-unix/1549,unix/lucas-Inspiron-15-3567:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3afa54_e65d_4f18_8089_76c4492c1f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.320'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble')]), 'shell': False}
+[0.300906] (-) TimerEvent: {}
+[0.326628] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400993] (-) TimerEvent: {}
+[0.482295] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.485453] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.488819] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.501122] (-) TimerEvent: {}
+[0.526826] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.559906] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601257] (-) TimerEvent: {}
+[0.645632] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.647755] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701390] (-) TimerEvent: {}
+[0.801738] (-) TimerEvent: {}
+[0.812936] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901887] (-) TimerEvent: {}
+[1.002220] (-) TimerEvent: {}
+[1.102529] (-) TimerEvent: {}
+[1.202875] (-) TimerEvent: {}
+[1.295507] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.302972] (-) TimerEvent: {}
+[1.403305] (-) TimerEvent: {}
+[1.503630] (-) TimerEvent: {}
+[1.508514] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603772] (-) TimerEvent: {}
+[1.704072] (-) TimerEvent: {}
+[1.789400] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.804172] (-) TimerEvent: {}
+[1.815895] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.843112] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.843371] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.843523] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.871024] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.904315] (-) TimerEvent: {}
+[1.920096] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.953857] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces\n'}
+[1.990812] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.000967] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[2.004425] (-) TimerEvent: {}
+[2.013632] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_generator_c\n'}
+[2.020868] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.025592] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.032384] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.042698] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[2.050948] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.051878] (more_interfaces) StdoutLine: {'line': b'[ 30%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[2.059954] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.062942] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.073803] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.080690] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.091114] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[2.110414] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.110715] (-) TimerEvent: {}
+[2.113373] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.136074] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[2.154558] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces\n'}
+[2.184844] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__py\n'}
+[2.201886] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.210822] (-) TimerEvent: {}
+[2.230389] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__rosidl_generator_py\n'}
+[2.252867] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.278862] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.310931] (-) TimerEvent: {}
+[2.313059] (more_interfaces) StdoutLine: {'line': b'[ 84%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.327979] (more_interfaces) StdoutLine: {'line': b'[ 90%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.331912] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.356345] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.411032] (-) TimerEvent: {}
+[2.511379] (-) TimerEvent: {}
+[2.589612] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.590714] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[2.591298] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[2.591548] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[2.596100] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.597410] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.611508] (-) TimerEvent: {}
+[2.640804] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[2.711710] (-) TimerEvent: {}
+[2.812484] (-) TimerEvent: {}
+[2.913360] (-) TimerEvent: {}
+[3.014147] (-) TimerEvent: {}
+[3.114600] (-) TimerEvent: {}
+[3.215517] (-) TimerEvent: {}
+[3.316291] (-) TimerEvent: {}
+[3.417467] (-) TimerEvent: {}
+[3.518488] (-) TimerEvent: {}
+[3.619405] (-) TimerEvent: {}
+[3.720238] (-) TimerEvent: {}
+[3.821028] (-) TimerEvent: {}
+[3.921388] (-) TimerEvent: {}
+[4.021760] (-) TimerEvent: {}
+[4.122196] (-) TimerEvent: {}
+[4.222573] (-) TimerEvent: {}
+[4.322936] (-) TimerEvent: {}
+[4.423282] (-) TimerEvent: {}
+[4.523624] (-) TimerEvent: {}
+[4.623979] (-) TimerEvent: {}
+[4.724363] (-) TimerEvent: {}
+[4.824710] (-) TimerEvent: {}
+[4.925068] (-) TimerEvent: {}
+[5.025421] (-) TimerEvent: {}
+[5.125783] (-) TimerEvent: {}
+[5.226154] (-) TimerEvent: {}
+[5.326517] (-) TimerEvent: {}
+[5.426886] (-) TimerEvent: {}
+[5.527230] (-) TimerEvent: {}
+[5.627577] (-) TimerEvent: {}
+[5.727916] (-) TimerEvent: {}
+[5.828257] (-) TimerEvent: {}
+[5.928626] (-) TimerEvent: {}
+[6.028977] (-) TimerEvent: {}
+[6.129314] (-) TimerEvent: {}
+[6.229684] (-) TimerEvent: {}
+[6.330047] (-) TimerEvent: {}
+[6.430378] (-) TimerEvent: {}
+[6.530711] (-) TimerEvent: {}
+[6.631145] (-) TimerEvent: {}
+[6.731545] (-) TimerEvent: {}
+[6.831909] (-) TimerEvent: {}
+[6.932246] (-) TimerEvent: {}
+[7.032602] (-) TimerEvent: {}
+[7.132949] (-) TimerEvent: {}
+[7.233304] (-) TimerEvent: {}
+[7.333646] (-) TimerEvent: {}
+[7.434021] (-) TimerEvent: {}
+[7.534361] (-) TimerEvent: {}
+[7.634834] (-) TimerEvent: {}
+[7.735222] (-) TimerEvent: {}
+[7.835569] (-) TimerEvent: {}
+[7.935915] (-) TimerEvent: {}
+[8.036275] (-) TimerEvent: {}
+[8.136607] (-) TimerEvent: {}
+[8.236956] (-) TimerEvent: {}
+[8.337338] (-) TimerEvent: {}
+[8.437716] (-) TimerEvent: {}
+[8.538075] (-) TimerEvent: {}
+[8.638469] (-) TimerEvent: {}
+[8.737061] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[8.738548] (-) TimerEvent: {}
+[8.838969] (-) TimerEvent: {}
+[8.939844] (-) TimerEvent: {}
+[9.040680] (-) TimerEvent: {}
+[9.141549] (-) TimerEvent: {}
+[9.242412] (-) TimerEvent: {}
+[9.343293] (-) TimerEvent: {}
+[9.444279] (-) TimerEvent: {}
+[9.545201] (-) TimerEvent: {}
+[9.645973] (-) TimerEvent: {}
+[9.746811] (-) TimerEvent: {}
+[9.853493] (-) TimerEvent: {}
+[9.954370] (-) TimerEvent: {}
+[10.054849] (-) TimerEvent: {}
+[10.155323] (-) TimerEvent: {}
+[10.256021] (-) TimerEvent: {}
+[10.285215] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[10.299569] (more_interfaces) CommandEnded: {'returncode': 0}
+[10.356139] (-) TimerEvent: {}
+[10.404208] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[10.414972] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces'], 'cwd': '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucas'), ('OLDPWD', '/home/lucas/Documents/Pratica4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lucas/Documents/Pratica4/workspace_2/src/my_code/start/'), ('SESSION_MANAGER', 'local/lucas-Inspiron-15-3567:@/tmp/.ICE-unix/1549,unix/lucas-Inspiron-15-3567:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3afa54_e65d_4f18_8089_76c4492c1f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.320'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucas/Documents/Pratica4/workspace_2/build/more_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble')]), 'shell': False}
+[10.425364] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.425901] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[10.426655] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.426864] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.427010] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.427152] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.427295] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[10.427445] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[10.427596] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[10.427758] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[10.427918] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[10.428104] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[10.428253] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[10.456376] (-) TimerEvent: {}
+[10.504217] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[10.505573] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.507128] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.507861] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.508484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.509374] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[10.510014] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.510959] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.511546] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.512111] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.512671] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.513214] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[10.514082] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[10.515201] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.516125] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[10.517322] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.518381] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.519348] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.520131] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[10.521121] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[10.521903] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[10.523083] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[10.523925] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.524831] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.525528] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.526346] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.527332] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[10.528089] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.528969] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.529517] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[10.530020] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[10.530377] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[10.530620] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.530835] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[10.531043] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.531248] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.531454] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[10.531658] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[10.556590] (-) TimerEvent: {}
+[10.560108] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.561051] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.619572] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.656878] (-) TimerEvent: {}
+[10.659489] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.757145] (-) TimerEvent: {}
+[10.762275] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.786590] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces\n'}
+[10.788219] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[10.790265] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg\n'}
+[10.791096] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[10.791845] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c\n'}
+[10.792598] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py\n'}
+[10.793407] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[10.794191] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.795122] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.796238] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.796887] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.797448] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.798016] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.855837] (more_interfaces) StdoutLine: {'line': b"Listing '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[10.856106] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...\n"}
+[10.856255] (more_interfaces) StdoutLine: {'line': b"Listing '/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[10.857205] (-) TimerEvent: {}
+[10.863122] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.863851] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.864613] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.864962] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[10.865331] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[10.865640] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[10.865836] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[10.868376] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[10.868712] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[10.868926] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[10.869183] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[10.869409] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.869665] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[10.869898] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[10.870197] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[10.870466] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[10.870619] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[10.870772] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[10.870997] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[10.871204] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[10.871440] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.871600] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.871817] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.871999] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.872229] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.872395] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.872534] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.872668] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.872901] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.873093] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.873245] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.873391] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.873536] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.873791] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.873980] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.874116] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.874284] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.874420] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.874546] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.874670] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.874795] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.874943] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.875076] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.875314] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.875454] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[10.875580] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[10.875704] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[10.877483] (more_interfaces) CommandEnded: {'returncode': 0}
+[10.957331] (-) TimerEvent: {}
+[10.999034] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[11.000133] (-) EventReactorShutdown: {}

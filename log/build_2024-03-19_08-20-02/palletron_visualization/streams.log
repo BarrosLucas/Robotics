@@ -1,0 +1,25 @@
+[0.255s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization -- -j4 -l4
+[1.042s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization -- -j4 -l4
+[1.091s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization
+[1.105s] -- Install configuration: ""
+[1.105s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/launch
+[1.157s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/launch/rviz.launch.py
+[1.157s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/rviz
+[1.210s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/rviz/navigation_view.rviz
+[1.212s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/rviz/minimal_robot_view.rviz
+[1.212s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/ament_index/resource_index/package_run_dependencies/palletron_visualization
+[1.299s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/ament_index/resource_index/parent_prefix_path/palletron_visualization
+[1.300s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/environment/ament_prefix_path.sh
+[1.301s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/environment/path.sh
+[1.302s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/environment/path.dsv
+[1.303s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/local_setup.bash
+[1.303s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/local_setup.sh
+[1.304s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/local_setup.zsh
+[1.304s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/local_setup.dsv
+[1.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.dsv
+[1.354s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/ament_index/resource_index/packages/palletron_visualization
+[1.369s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/cmake/palletron_visualizationConfig.cmake
+[1.370s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/cmake/palletron_visualizationConfig-version.cmake
+[1.370s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.xml
+[1.380s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization

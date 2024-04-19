@@ -1,0 +1,640 @@
+[1.026s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.026s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0c3f838970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0c3f838460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0c3f838460>>)
+[3.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.772s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucas/Documents/Pratica4/workspace_2'
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ignore', 'ignore_ament_install']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore_ament_install'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_pkg']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_pkg'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_meta']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_meta'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ros']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ros'
+[3.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aws-robomaker-small-warehouse-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_warehouse_world'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ignore'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ignore_ament_install'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['colcon_pkg']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'colcon_pkg'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['colcon_meta']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'colcon_meta'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['ros']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ros'
+[3.838s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ira_laser_tools' with type 'ros.ament_cmake' and name 'ira_laser_tools'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['ignore', 'ignore_ament_install']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'ignore'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'ignore_ament_install'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['colcon_pkg']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'colcon_pkg'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['colcon_meta']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'colcon_meta'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['ros']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'ros'
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['cmake', 'python']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'cmake'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'python'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extensions ['python_setup_py']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system) by extension 'python_setup_py'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['ignore', 'ignore_ament_install']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'ignore'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'ignore_ament_install'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['colcon_pkg']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'colcon_pkg'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['colcon_meta']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'colcon_meta'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['ros']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'ros'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['cmake', 'python']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'cmake'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'python'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extensions ['python_setup_py']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/images) by extension 'python_setup_py'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extension 'ignore'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extension 'ignore_ament_install'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extensions ['colcon_pkg']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extension 'colcon_pkg'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extensions ['colcon_meta']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extension 'colcon_meta'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extensions ['ros']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_navigation) by extension 'ros'
+[3.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_ugv_system/ugv_navigation' with type 'ros.ament_cmake' and name 'ugv_navigation'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extension 'ignore'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extension 'ignore_ament_install'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extensions ['colcon_pkg']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extension 'colcon_pkg'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extensions ['colcon_meta']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extension 'colcon_meta'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extensions ['ros']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_robots_descriptions) by extension 'ros'
+[3.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_ugv_system/ugv_robots_descriptions' with type 'ros.ament_cmake' and name 'ugv_robots_descriptions'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extensions ['ignore', 'ignore_ament_install']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extension 'ignore'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extension 'ignore_ament_install'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extensions ['colcon_pkg']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extension 'colcon_pkg'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extensions ['colcon_meta']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extension 'colcon_meta'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extensions ['ros']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_ugv_system/ugv_simulation) by extension 'ros'
+[3.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_ugv_system/ugv_simulation' with type 'ros.ament_cmake' and name 'ugv_simulation'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['ignore', 'ignore_ament_install']
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'ignore'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'ignore_ament_install'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['colcon_pkg']
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'colcon_pkg'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['colcon_meta']
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'colcon_meta'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['ros']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'ros'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['cmake', 'python']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'cmake'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'python'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extensions ['python_setup_py']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_code) by extension 'python_setup_py'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extension 'ignore'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extension 'ignore_ament_install'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extensions ['colcon_pkg']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extension 'colcon_pkg'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extensions ['colcon_meta']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extension 'colcon_meta'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extensions ['ros']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_bringup) by extension 'ros'
+[3.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/palletron_bringup' with type 'ros.ament_cmake' and name 'palletron_bringup'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extension 'ignore'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extension 'ignore_ament_install'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extensions ['colcon_pkg']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extension 'colcon_pkg'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extensions ['colcon_meta']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extension 'colcon_meta'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extensions ['ros']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_gazebo) by extension 'ros'
+[3.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/palletron_gazebo' with type 'ros.ament_cmake' and name 'palletron_gazebo'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extensions ['ignore', 'ignore_ament_install']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extension 'ignore'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extension 'ignore_ament_install'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extensions ['colcon_pkg']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extension 'colcon_pkg'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extensions ['colcon_meta']
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extension 'colcon_meta'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extensions ['ros']
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/palletron_visualization) by extension 'ros'
+[3.847s] DEBUG:colcon.colcon_core.package_identification:Package 'src/palletron_visualization' with type 'ros.ament_cmake' and name 'palletron_visualization'
+[3.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.083s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[4.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.156s] ERROR:colcon.colcon_core.package_augmentation:Exception in package augmentation extension 'python': 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_augmentation/__init__.py", line 97, in augment_packages
+    retval = extension.augment_packages(
+  File "/usr/lib/python3/dist-packages/colcon_installed_package_information/package_augmentation/python.py", line 44, in augment_packages
+    dist = next(iter(dists))
+StopIteration
+
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_args' from command line to 'None'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target' from command line to 'None'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_cache' from command line to 'False'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_first' from command line to 'False'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_force_configure' from command line to 'False'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'ament_cmake_args' from command line to 'None'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_cmake_args' from command line to 'None'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.185s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_warehouse_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world', 'symlink_install': False, 'test_result_base': None}
+[4.186s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_args' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_first' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_force_configure' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'ament_cmake_args' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.187s] DEBUG:colcon.colcon_core.verb:Building package 'ira_laser_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/ira_laser_tools', 'symlink_install': False, 'test_result_base': None}
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_target' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'palletron_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.189s] DEBUG:colcon.colcon_core.verb:Building package 'palletron_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_bringup', 'symlink_install': False, 'test_result_base': None}
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_args' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_target' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'palletron_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.190s] DEBUG:colcon.colcon_core.verb:Building package 'palletron_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo', 'symlink_install': False, 'test_result_base': None}
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_args' from command line to 'None'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_target' from command line to 'None'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[4.191s] Level 5:colcon.colcon_core.verb:set package 'palletron_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.191s] DEBUG:colcon.colcon_core.verb:Building package 'palletron_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_visualization', 'symlink_install': False, 'test_result_base': None}
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_args' from command line to 'None'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_target' from command line to 'None'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[4.193s] Level 5:colcon.colcon_core.verb:set package 'ugv_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.193s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_navigation', 'symlink_install': False, 'test_result_base': None}
+[4.194s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_args' from command line to 'None'
+[4.194s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_target' from command line to 'None'
+[4.194s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.194s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[4.194s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_robots_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.195s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_robots_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions', 'symlink_install': False, 'test_result_base': None}
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_args' from command line to 'None'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_target' from command line to 'None'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[4.196s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[4.196s] Level 5:colcon.colcon_core.verb:set package 'ugv_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.196s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation', 'merge_install': False, 'path': '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_simulation', 'symlink_install': False, 'test_result_base': None}
+[4.196s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world' with build type 'ament_cmake'
+[4.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world'
+[4.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/ira_laser_tools' with build type 'ament_cmake'
+[4.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/ira_laser_tools'
+[4.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_bringup' with build type 'ament_cmake'
+[4.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_bringup'
+[4.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo' with build type 'ament_cmake'
+[4.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo'
+[4.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world
+[4.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/ira_laser_tools -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools
+[4.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_bringup -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup
+[4.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo
+[10.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_bringup -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup
+[10.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup -- -j4 -l4
+[10.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup -- -j4 -l4
+[10.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup
+[10.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_bringup)
+[10.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup
+[10.756s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup' for CMake module files
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup' for CMake config files
+[10.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_bringup', 'cmake_prefix_path')
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.ps1'
+[10.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.dsv'
+[10.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.sh'
+[10.781s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/bin'
+[10.782s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/lib/pkgconfig/palletron_bringup.pc'
+[10.784s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/lib/python3.10/site-packages'
+[10.786s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/bin'
+[10.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.ps1'
+[10.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.dsv'
+[10.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.sh'
+[10.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.bash'
+[10.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.zsh'
+[10.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/colcon-core/packages/palletron_bringup)
+[10.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_bringup)
+[10.884s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup' for CMake module files
+[10.884s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup' for CMake config files
+[10.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_bringup', 'cmake_prefix_path')
+[10.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.ps1'
+[10.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.dsv'
+[10.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/hook/cmake_prefix_path.sh'
+[10.887s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/bin'
+[10.887s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/lib/pkgconfig/palletron_bringup.pc'
+[10.888s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/lib/python3.10/site-packages'
+[10.888s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/bin'
+[10.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.ps1'
+[10.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.dsv'
+[10.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.sh'
+[10.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.bash'
+[10.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/palletron_bringup/package.zsh'
+[10.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup/share/colcon-core/packages/palletron_bringup)
+[10.894s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_visualization' with build type 'ament_cmake'
+[10.894s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/palletron_visualization'
+[10.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_visualization -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization
+[12.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_visualization -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization
+[12.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization -- -j4 -l4
+[12.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization -- -j4 -l4
+[12.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization
+[12.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_visualization)
+[12.383s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization' for CMake module files
+[12.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_visualization
+[12.384s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization' for CMake config files
+[12.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_visualization', 'cmake_prefix_path')
+[12.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.ps1'
+[12.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.dsv'
+[12.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.sh'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/bin'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/lib/pkgconfig/palletron_visualization.pc'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/lib/python3.10/site-packages'
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/bin'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.ps1'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.dsv'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.sh'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.bash'
+[12.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.zsh'
+[12.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/colcon-core/packages/palletron_visualization)
+[12.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_visualization)
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization' for CMake module files
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization' for CMake config files
+[12.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_visualization', 'cmake_prefix_path')
+[12.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.ps1'
+[12.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.dsv'
+[12.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/hook/cmake_prefix_path.sh'
+[12.421s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/bin'
+[12.422s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/lib/pkgconfig/palletron_visualization.pc'
+[12.422s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/lib/python3.10/site-packages'
+[12.422s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/bin'
+[12.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.ps1'
+[12.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.dsv'
+[12.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.sh'
+[12.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.bash'
+[12.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/palletron_visualization/package.zsh'
+[12.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization/share/colcon-core/packages/palletron_visualization)
+[12.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_navigation' with build type 'ament_cmake'
+[12.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_navigation'
+[12.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_navigation -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation
+[13.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_navigation -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation
+[13.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation -- -j4 -l4
+[13.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation -- -j4 -l4
+[13.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation
+[13.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_navigation)
+[13.497s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation' for CMake module files
+[13.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation
+[13.498s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation' for CMake config files
+[13.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_navigation', 'cmake_prefix_path')
+[13.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.ps1'
+[13.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.dsv'
+[13.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.sh'
+[13.500s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/bin'
+[13.500s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/lib/pkgconfig/ugv_navigation.pc'
+[13.501s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/lib/python3.10/site-packages'
+[13.501s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/bin'
+[13.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.ps1'
+[13.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.dsv'
+[13.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.sh'
+[13.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.bash'
+[13.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.zsh'
+[13.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/colcon-core/packages/ugv_navigation)
+[13.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_navigation)
+[13.531s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation' for CMake module files
+[13.532s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation' for CMake config files
+[13.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_navigation', 'cmake_prefix_path')
+[13.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.ps1'
+[13.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.dsv'
+[13.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/hook/cmake_prefix_path.sh'
+[13.534s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/bin'
+[13.534s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/lib/pkgconfig/ugv_navigation.pc'
+[13.535s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/lib/python3.10/site-packages'
+[13.535s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/bin'
+[13.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.ps1'
+[13.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.dsv'
+[13.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.sh'
+[13.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.bash'
+[13.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/ugv_navigation/package.zsh'
+[13.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation/share/colcon-core/packages/ugv_navigation)
+[13.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions' with build type 'ament_cmake'
+[13.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions'
+[13.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions
+[15.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions
+[15.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions -- -j4 -l4
+[15.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions -- -j4 -l4
+[15.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions
+[15.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_robots_descriptions)
+[15.549s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions' for CMake module files
+[15.550s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions' for CMake config files
+[15.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_robots_descriptions', 'cmake_prefix_path')
+[15.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.ps1'
+[15.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.dsv'
+[15.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.sh'
+[15.553s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/bin'
+[15.553s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/lib/pkgconfig/ugv_robots_descriptions.pc'
+[15.553s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/lib/python3.10/site-packages'
+[15.554s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/bin'
+[15.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.ps1'
+[15.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.dsv'
+[15.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.sh'
+[15.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.bash'
+[15.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.zsh'
+[15.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/colcon-core/packages/ugv_robots_descriptions)
+[15.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions
+[15.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_robots_descriptions)
+[15.597s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions' for CMake module files
+[15.598s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions' for CMake config files
+[15.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_robots_descriptions', 'cmake_prefix_path')
+[15.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.ps1'
+[15.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.dsv'
+[15.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/hook/cmake_prefix_path.sh'
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/bin'
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/lib/pkgconfig/ugv_robots_descriptions.pc'
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/lib/python3.10/site-packages'
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/bin'
+[15.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.ps1'
+[15.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.dsv'
+[15.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.sh'
+[15.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.bash'
+[15.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.zsh'
+[15.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/colcon-core/packages/ugv_robots_descriptions)
+[15.613s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_simulation' with build type 'ament_cmake'
+[15.614s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_simulation'
+[15.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_simulation -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation
+[17.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_simulation -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation
+[17.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation -- -j4 -l4
+[17.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation -- -j4 -l4
+[17.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation
+[17.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_simulation)
+[17.867s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation' for CMake module files
+[17.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_simulation
+[17.869s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation' for CMake config files
+[17.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_simulation', 'cmake_prefix_path')
+[17.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.ps1'
+[17.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.dsv'
+[17.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.sh'
+[17.870s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/bin'
+[17.870s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/lib/pkgconfig/ugv_simulation.pc'
+[17.871s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/lib/python3.10/site-packages'
+[17.871s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/bin'
+[17.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.ps1'
+[17.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.dsv'
+[17.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.sh'
+[17.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.bash'
+[17.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.zsh'
+[17.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/colcon-core/packages/ugv_simulation)
+[17.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_simulation)
+[17.899s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation' for CMake module files
+[17.899s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation' for CMake config files
+[17.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_simulation', 'cmake_prefix_path')
+[17.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.ps1'
+[17.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.dsv'
+[17.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/hook/cmake_prefix_path.sh'
+[17.902s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/bin'
+[17.902s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/lib/pkgconfig/ugv_simulation.pc'
+[17.902s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/lib/python3.10/site-packages'
+[17.903s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/bin'
+[17.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.ps1'
+[17.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.dsv'
+[17.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.sh'
+[17.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.bash'
+[17.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/ugv_simulation/package.zsh'
+[17.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation/share/colcon-core/packages/ugv_simulation)
+[22.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world
+[22.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world -- -j4 -l4
+[22.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world -- -j4 -l4
+[22.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world
+[22.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[22.940s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world' for CMake module files
+[22.941s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world' for CMake config files
+[22.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/aws_robomaker_small_warehouse_world
+[22.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[22.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[22.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[22.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[22.947s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/bin'
+[22.947s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[22.948s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[22.948s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/bin'
+[22.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[22.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[23.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[23.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[23.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[23.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[23.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[23.045s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world' for CMake module files
+[23.046s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world' for CMake config files
+[23.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[23.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[23.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[23.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[23.103s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/bin'
+[23.103s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[23.104s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[23.104s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/bin'
+[23.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[23.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[23.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[23.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[23.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[23.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[23.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/palletron_gazebo -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo
+[23.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[23.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[23.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo
+[24.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_gazebo)
+[24.021s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo' for CMake module files
+[24.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo
+[24.022s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo' for CMake config files
+[24.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_gazebo', 'cmake_prefix_path')
+[24.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.ps1'
+[24.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.dsv'
+[24.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.sh'
+[24.025s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/bin'
+[24.025s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/lib/pkgconfig/palletron_gazebo.pc'
+[24.025s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/lib/python3.10/site-packages'
+[24.025s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/bin'
+[24.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.ps1'
+[24.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.dsv'
+[24.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.sh'
+[24.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.bash'
+[24.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.zsh'
+[24.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/colcon-core/packages/palletron_gazebo)
+[24.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palletron_gazebo)
+[24.059s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo' for CMake module files
+[24.060s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo' for CMake config files
+[24.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('palletron_gazebo', 'cmake_prefix_path')
+[24.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.ps1'
+[24.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.dsv'
+[24.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/hook/cmake_prefix_path.sh'
+[24.063s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/bin'
+[24.063s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/lib/pkgconfig/palletron_gazebo.pc'
+[24.063s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/lib/python3.10/site-packages'
+[24.064s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/bin'
+[24.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.ps1'
+[24.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.dsv'
+[24.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.sh'
+[24.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.bash'
+[24.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.zsh'
+[24.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/colcon-core/packages/palletron_gazebo)
+[31.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/ira_laser_tools -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools
+[31.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools -- -j4 -l4
+[76.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools -- -j4 -l4
+[76.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools
+[76.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[76.524s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools' for CMake module files
+[76.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ira_laser_tools
+[76.527s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools' for CMake config files
+[76.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[76.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[76.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[76.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[76.641s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib'
+[76.642s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/bin'
+[76.643s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[76.644s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/python3.10/site-packages'
+[76.645s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/bin'
+[76.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[76.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[76.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[76.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[76.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[76.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[76.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[76.888s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools' for CMake module files
+[76.890s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools' for CMake config files
+[76.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[76.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[76.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[76.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[76.892s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib'
+[76.892s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/bin'
+[76.893s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[76.893s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/lib/python3.10/site-packages'
+[76.893s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/bin'
+[76.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[76.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[76.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[76.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[76.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[76.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[76.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[76.901s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[77.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[77.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[77.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.313s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/Documents/Pratica4/workspace_2/install/local_setup.ps1'
+[77.451s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas/Documents/Pratica4/workspace_2/install/_local_setup_util_ps1.py'
+[77.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/Documents/Pratica4/workspace_2/install/setup.ps1'
+[77.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/Documents/Pratica4/workspace_2/install/local_setup.sh'
+[77.575s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas/Documents/Pratica4/workspace_2/install/_local_setup_util_sh.py'
+[77.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/Documents/Pratica4/workspace_2/install/setup.sh'
+[77.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/Documents/Pratica4/workspace_2/install/local_setup.bash'
+[77.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/Documents/Pratica4/workspace_2/install/setup.bash'
+[77.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/Documents/Pratica4/workspace_2/install/local_setup.zsh'
+[77.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/Documents/Pratica4/workspace_2/install/setup.zsh'

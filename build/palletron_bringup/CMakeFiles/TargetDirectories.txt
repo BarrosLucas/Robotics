@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/palletron_bringup_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_bringup/CMakeFiles/install/strip.dir

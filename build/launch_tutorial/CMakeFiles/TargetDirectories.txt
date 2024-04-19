@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/launch_tutorial_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/launch_tutorial/CMakeFiles/install/strip.dir

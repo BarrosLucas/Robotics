@@ -1,0 +1,10 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/area_node.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/polygon_base/CMakeFiles/install/strip.dir

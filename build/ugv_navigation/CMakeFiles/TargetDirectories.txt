@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/ugv_navigation_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_navigation/CMakeFiles/install/strip.dir

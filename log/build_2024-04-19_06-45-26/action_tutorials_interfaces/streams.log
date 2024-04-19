@@ -1,0 +1,229 @@
+[0.064s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces
+[3.614s] -- The C compiler identification is GNU 11.4.0
+[5.489s] -- The CXX compiler identification is GNU 11.4.0
+[5.647s] -- Detecting C compiler ABI info
+[6.034s] -- Detecting C compiler ABI info - done
+[6.065s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.084s] -- Detecting C compile features
+[6.111s] -- Detecting C compile features - done
+[6.138s] -- Detecting CXX compiler ABI info
+[6.379s] -- Detecting CXX compiler ABI info - done
+[6.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.401s] -- Detecting CXX compile features
+[6.401s] -- Detecting CXX compile features - done
+[6.412s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.712s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.924s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.322s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.354s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.189s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.501s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.511s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.682s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.684s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.689s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.799s] -- Found PythonExtra: .so  
+[11.123s] -- Added test 'lint_cmake' to check CMake code style
+[11.181s] -- Added test 'xmllint' to check XML markup files
+[11.225s] -- Configuring done
+[11.314s] -- Generating done
+[11.318s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces
+[11.334s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces
+[11.338s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces -- -j4 -l4
+[11.397s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.442s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.469s] [  6%] Built target ament_cmake_python_copy_action_tutorials_interfaces
+[12.293s] running egg_info
+[12.294s] creating action_tutorials_interfaces.egg-info
+[12.295s] writing action_tutorials_interfaces.egg-info/PKG-INFO
+[12.295s] writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt
+[12.296s] writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt
+[12.296s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[12.313s] reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[12.314s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[12.432s] [  6%] Built target ament_cmake_python_build_action_tutorials_interfaces_egg
+[13.228s] [  6%] Built target action_tutorials_interfaces__cpp
+[13.247s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.252s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.253s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.293s] [ 19%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o[0m
+[13.926s] [ 22%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so[0m
+[14.150s] [ 25%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[14.195s] [ 25%] Built target action_tutorials_interfaces__rosidl_generator_c
+[14.213s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.548s] [ 32%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[14.731s] [ 35%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[15.684s] [ 38%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so[0m
+[15.743s] [ 41%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[15.924s] [ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[15.985s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.531s] [ 48%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.651s] [ 51%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.908s] [ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[16.971s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.993s] [ 54%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[17.013s] [ 58%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[17.215s] [ 61%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[17.239s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[17.603s] [ 64%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.728s] [ 67%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[17.766s] [ 67%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[18.065s] [ 70%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so[0m
+[18.167s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[18.202s] [ 70%] Built target action_tutorials_interfaces
+[18.240s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.261s] [ 74%] Built target action_tutorials_interfaces__py
+[20.305s] [ 77%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o[0m
+[20.995s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so[0m
+[21.098s] [ 80%] Built target action_tutorials_interfaces__rosidl_generator_py
+[21.168s] [ 83%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.176s] [ 87%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.200s] [ 90%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[21.660s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.670s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.764s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.806s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[21.880s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[21.890s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[21.919s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces -- -j4 -l4
+[22.077s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces
+[22.101s] -- Install configuration: ""
+[22.102s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces
+[22.102s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.102s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.109s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.h
+[22.109s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.110s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.h
+[22.116s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.h
+[22.117s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.c
+[22.117s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.h
+[22.123s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[22.123s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.134s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh
+[22.134s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv
+[22.134s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so
+[22.138s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""
+[22.139s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.139s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.139s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.139s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[22.139s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[22.139s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.141s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.142s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[22.142s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.142s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.142s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.143s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[22.143s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.c
+[22.143s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[22.143s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.143s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so
+[22.143s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[22.144s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so
+[22.144s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""
+[22.144s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.144s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.144s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp
+[22.144s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.144s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp
+[22.144s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp
+[22.145s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp
+[22.145s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.145s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.145s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.145s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[22.145s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/dds_fastrtps
+[22.145s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[22.146s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.146s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.146s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.148s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[22.148s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[22.148s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[22.148s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp
+[22.148s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[22.149s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.149s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[22.149s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so
+[22.163s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""
+[22.163s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh
+[22.163s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv
+[22.163s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info
+[22.163s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.163s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py
+[22.164s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci_s.c
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[22.165s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.262s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces'...
+[22.263s] Compiling '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py'...
+[22.263s] Listing '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action'...
+[22.263s] Compiling '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py'...
+[22.263s] Compiling '/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py'...
+[22.286s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.286s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.286s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.286s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.286s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.298s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.298s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so
+[22.299s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so" to ""
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[22.299s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[22.300s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.301s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake
+[22.302s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[22.302s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cppExport.cmake
+[22.302s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.303s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.303s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[22.303s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.304s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[22.305s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[22.306s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_interfaces

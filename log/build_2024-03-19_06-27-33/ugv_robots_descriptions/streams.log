@@ -1,0 +1,86 @@
+[0.019s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.369s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.892s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.033s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.156s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.156s] -- Added test 'lint_cmake' to check CMake code style
+[1.157s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done
+[1.171s] -- Generating done
+[1.171s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions
+[1.192s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/laser_ugv_system/ugv_robots_descriptions -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions
+[1.193s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions -- -j4 -l4
+[1.289s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions -- -j4 -l4
+[1.396s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions
+[1.407s] -- Install configuration: ""
+[1.407s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/launch
+[1.408s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/launch/l1br_description_launch.py
+[1.414s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/launch/oni_description_launch.py
+[1.414s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description
+[1.415s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni
+[1.415s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/meshes
+[1.415s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/meshes/chassis.dae
+[1.415s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/meshes/fr_wheel.dae
+[1.426s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/meshes/rplidar.dae
+[1.426s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/meshes/fl_wheel.dae
+[1.427s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf
+[1.427s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/sensors
+[1.427s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/sensors/laser_sensor.urdf.xacro
+[1.428s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/sensors/imu_sensor.urdf.xacro
+[1.428s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/robot_parts
+[1.428s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/robot_parts/traction_wheel.urdf.xacro
+[1.428s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/robot_parts/robot_base.urdf.xacro
+[1.428s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/oni.urdf.xacro
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/oni/urdf/oni_omni_drive_control.urdf.xacro
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/config
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/config/l1br_control.yaml
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/meshes
+[1.429s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/meshes/wheel.dae
+[1.430s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/meshes/chassis.dae
+[1.464s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/meshes/rplidar.dae
+[1.465s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/meshes/tray.dae
+[1.468s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf
+[1.468s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/l1br.urdf.xacro
+[1.476s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/sensors
+[1.476s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/sensors/laser_sensor.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/sensors/imu_sensor.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts/caster_wheel.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts/piston.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts/traction_wheel.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts/robot_base.urdf.xacro
+[1.477s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/robot_parts/tray.urdf.xacro
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/robots_description/l1br/urdf/l1br_diff_drive_control.urdf.xacro
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/rviz
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/rviz/rviz_minimal_visualization_oni_config.rviz
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/rviz/rviz_minimal_visualization_l1br_config.rviz
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ament_index/resource_index/package_run_dependencies/ugv_robots_descriptions
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ament_index/resource_index/parent_prefix_path/ugv_robots_descriptions
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/environment/ament_prefix_path.sh
+[1.478s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/environment/ament_prefix_path.dsv
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/environment/path.sh
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/environment/path.dsv
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/local_setup.bash
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/local_setup.sh
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/local_setup.zsh
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/local_setup.dsv
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.dsv
+[1.479s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ament_index/resource_index/packages/ugv_robots_descriptions
+[1.480s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/cmake/ugv_robots_descriptionsConfig.cmake
+[1.480s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/cmake/ugv_robots_descriptionsConfig-version.cmake
+[1.480s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions/share/ugv_robots_descriptions/package.xml
+[1.484s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions

@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/palletron_gazebo_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo/CMakeFiles/install/strip.dir

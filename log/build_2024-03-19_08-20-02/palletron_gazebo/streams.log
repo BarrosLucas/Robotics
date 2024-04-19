@@ -1,0 +1,46 @@
+[0.237s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[1.138s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo -- -j4 -l4
+[1.194s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo
+[1.216s] -- Install configuration: ""
+[1.217s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch
+[1.291s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch/spawn_robot.launch.py
+[1.291s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/launch/spawn_multi_robots.launch.py
+[1.292s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params
+[1.374s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn
+[1.383s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/three_robots.yaml
+[1.384s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/one_robot.yaml
+[1.385s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/spawn/two_robots.yaml
+[1.386s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/xacro
+[1.411s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/params/xacro/default_optionals.yaml
+[1.411s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf
+[1.412s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/chassis
+[1.424s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/chassis/chassis_without_mesh.urdf.xacro
+[1.425s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors
+[1.440s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors/hokuyo.urdf.xacro
+[1.440s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/sensors/imu.urdf.xacro
+[1.440s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/inertias.urdf.xacro
+[1.440s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/palletron.xacro
+[1.441s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins
+[1.454s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins/differential_drive_plugin.gazebo.xacro
+[1.454s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/plugins/p3d_plugin.gazebo.xacro
+[1.455s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels
+[1.483s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/caster_wheel.urdf.xacro
+[1.484s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/drive_wheel.urdf.xacro
+[1.485s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/wheels/dummy_caster_wheel.urdf.xacro
+[1.486s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/urdf/common_properties.urdf.xacro
+[1.486s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/package_run_dependencies/palletron_gazebo
+[1.488s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/parent_prefix_path/palletron_gazebo
+[1.488s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/ament_prefix_path.sh
+[1.489s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/ament_prefix_path.dsv
+[1.490s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/path.sh
+[1.490s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/environment/path.dsv
+[1.491s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.bash
+[1.491s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.sh
+[1.492s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.zsh
+[1.492s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/local_setup.dsv
+[1.493s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.dsv
+[1.502s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/ament_index/resource_index/packages/palletron_gazebo
+[1.510s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/cmake/palletron_gazeboConfig.cmake
+[1.512s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/cmake/palletron_gazeboConfig-version.cmake
+[1.514s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo/share/palletron_gazebo/package.xml
+[1.548s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/palletron_gazebo

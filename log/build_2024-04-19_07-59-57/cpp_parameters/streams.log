@@ -1,0 +1,27 @@
+[0.195s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters -- -j4 -l4
+[0.806s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[12.669s] [100%] [32m[1mLinking CXX executable minimal_param_node[0m
+[15.898s] [100%] Built target minimal_param_node
+[16.014s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters -- -j4 -l4
+[16.115s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters
+[16.156s] -- Install configuration: ""
+[16.218s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[16.226s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""
+[16.226s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/launch
+[16.227s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[16.227s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[16.228s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[16.229s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[16.230s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[16.230s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[16.231s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[16.231s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[16.231s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[16.232s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[16.232s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[16.232s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/package.dsv
+[16.273s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[16.273s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[16.273s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[16.274s] -- Up-to-date: /home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters/share/cpp_parameters/package.xml
+[16.277s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/cpp_parameters

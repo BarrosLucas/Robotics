@@ -1,0 +1,9 @@
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/ugv_robots_descriptions_uninstall.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/test.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/edit_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/rebuild_cache.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/list_install_components.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/install.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/install/local.dir
+/home/lucas/Documents/Pratica4/workspace_2/build/ugv_robots_descriptions/CMakeFiles/install/strip.dir

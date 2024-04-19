@@ -1,0 +1,77 @@
+[0.170s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp
+[0.818s] -- The C compiler identification is GNU 11.4.0
+[1.222s] -- The CXX compiler identification is GNU 11.4.0
+[1.326s] -- Detecting C compiler ABI info
+[1.349s] -- Detecting C compiler ABI info - done
+[1.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.349s] -- Detecting C compile features
+[1.349s] -- Detecting C compile features - done
+[1.349s] -- Detecting CXX compiler ABI info
+[1.350s] -- Detecting CXX compiler ABI info - done
+[1.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.350s] -- Detecting CXX compile features
+[1.351s] -- Detecting CXX compile features - done
+[1.351s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.843s] -- Found action_tutorials_interfaces: 0.0.0 (/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[1.929s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.946s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.970s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.289s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.394s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.400s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.547s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.594s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.685s] -- Looking for pthread.h
+[2.900s] -- Looking for pthread.h - found
+[2.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.076s] -- Found Threads: TRUE  
+[3.380s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.482s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.759s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.950s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.951s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas/Documents/Pratica4/workspace_2/src/action_tutorials_cpp/include>
+[3.951s] -- Configured cppcheck exclude dirs and/or files: 
+[3.952s] -- Added test 'lint_cmake' to check CMake code style
+[3.954s] -- Added test 'uncrustify' to check C / C++ code style
+[3.955s] -- Configured uncrustify additional arguments: 
+[3.956s] -- Added test 'xmllint' to check XML markup files
+[3.960s] -- Configuring done
+[3.989s] -- Generating done
+[3.993s] -- Build files have been written to: /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp
+[4.013s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake /home/lucas/Documents/Pratica4/workspace_2/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp
+[4.021s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp -- -j4 -l4
+[4.114s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[4.129s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[8.790s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[9.295s] [ 75%] Built target fibonacci_action_server
+[10.008s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[10.253s] [100%] Built target action_server
+[10.269s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --build /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp -- -j4 -l4
+[10.307s] Invoking command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp
+[10.316s] -- Install configuration: ""
+[10.317s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[10.318s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[10.318s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/lib/libaction_server.so
+[10.320s] -- Set runtime path of "/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[10.320s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[10.320s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[10.321s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[10.321s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[10.321s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[10.321s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[10.322s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[10.322s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[10.322s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[10.322s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[10.322s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[10.323s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[10.323s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[10.323s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[10.323s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[10.324s] -- Installing: /home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[10.327s] Invoked command in '/home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lucas/Documents/Pratica4/workspace_2/install/action_tutorials_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_pubsub:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_simulation:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_robots_descriptions:/home/lucas/Documents/Pratica4/workspace_2/install/ugv_navigation:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_plugins:/home/lucas/Documents/Pratica4/workspace_2/install/polygon_base:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_visualization:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_gazebo:/home/lucas/Documents/Pratica4/workspace_2/install/palletron_bringup:/home/lucas/Documents/Pratica4/workspace_2/install/my_code:/home/lucas/Documents/Pratica4/workspace_2/install/more_interfaces:/home/lucas/Documents/Pratica4/workspace_2/install/ira_laser_tools:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_srvcli:/home/lucas/Documents/Pratica4/workspace_2/install/cpp_parameters:/home/lucas/Documents/Pratica4/workspace_2/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --install /home/lucas/Documents/Pratica4/workspace_2/build/action_tutorials_cpp
